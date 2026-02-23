@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "capital_input",
+        "continent_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Write a summary on \"{capital_input}\" which is in the continent of \"{continent_input}\".\nYou can add geographical location details and describe it in a crisp form within 700 words and dont \ntruncate the paragraph instead complete the sentence even if its less that 700.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
